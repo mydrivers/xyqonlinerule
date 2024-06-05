@@ -26,39 +26,6 @@
         {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"},
         {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"},
         {"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"},
-        //自己加的线路    
-      {
-      "key": "js_nangua",
-      "name": "南瓜┃秒播",
-      "type": 3,
-      "api": "https://jihulab.com/e8/4k/-/raw/master/lab/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://jihulab.com/e8/4k/-/raw/master/js/nangua.js"
-    },
-    {
-      "key": "酷看",
-      "name": "酷看┃秒播",
-      "type": 3,
-       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715980119184/fan.txt;md5;f4a9956bae884c4a952da9152c0ed446",
-      "api": "csp_Kkys",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-
-          {
-      "key": "夜猫短剧",
-      "name": "夜猫┃短剧",
-      "type": 3,
-      "api": "csp_YMduanju",
-      "jar": "https://jihulab.com/e8/4k/-/raw/master/jar/ymz.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
         //网盘资源区
         //{"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
         //{"key":"csp_Zhaozy","name":"📀找资源(搜索)","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"{\"username\":\"fanty\",\"password\":\"qqq111\",\"searchurl\":\"https://zhaoziyuan1.cc/so?filename={wd}\"}"},
