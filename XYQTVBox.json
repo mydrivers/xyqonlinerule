@@ -27,7 +27,7 @@
         {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"},
         {"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"},
         //自己加的线路
-           {
+           //{
       "key": "天天影视",
       "name": "💡天天┃影视",
       "type": 3,
@@ -35,7 +35,7 @@
       "ext": "http://op.ysdqjs.cn",
       "jar": "https://gitee.com/iitvbox/jar/raw/master/欧歌/ou.jar"
     },
-        {
+        //{
       "key": "天天弹幕",
       "name": "💡天天┃弹幕",
       "type": 3,
