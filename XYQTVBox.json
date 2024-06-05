@@ -71,8 +71,62 @@
         //{"key": "csp_短剧网","name":"短剧网","type":3,"api":"csp_Duanjuw","searchable":1,"quickSearch":1,"filterable":1},
         //XYQ规则区
         //{"key": "csp_XYQHiker_农民影视","name":"🧑🏻‍农民影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
-        {"key": "csp_XYQHiker_996影视","name":"996影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/996影视.json"},
-        
+        //{"key": "csp_XYQHiker_996影视","name":"996影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/996影视.json"},
+            {
+      "key": "荐片弹幕",
+      "name": "💡荐片┃弹幕",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "https://gitee.com/iitvbox/jar/raw/master/欧歌/danmu.jar"
+    },
+        {
+      "key": "天天影视",
+      "name": "💡天天┃影视",
+      "type": 3,
+      "api": "csp_TTian",
+      "ext": "http://op.ysdqjs.cn",
+      "jar": "https://gitee.com/iitvbox/jar/raw/master/欧歌/ou.jar"
+    },
+        {
+      "key": "天天弹幕",
+      "name": "💡天天┃弹幕",
+      "type": 3,
+      "api": "csp_TianTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "jar": "https://gitee.com/iitvbox/jar/raw/master/欧歌/danmu.jar"
+    },
+          {
+      "key": "js_nangua",
+      "name": "南瓜┃秒播",
+      "type": 3,
+      "api": "https://jihulab.com/e8/4k/-/raw/master/lab/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://jihulab.com/e8/4k/-/raw/master/js/nangua.js"
+    },
+      {
+      "key": "夜猫短剧",
+      "name": "夜猫┃短剧",
+      "type": 3,
+      "api": "csp_YMduanju",
+      "jar": "https://jihulab.com/e8/4k/-/raw/master/jar/ymz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
         //直播规则区
         //{"key": "csp_XYQBiu_88看球","name":"88看球(XYQ)","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"./XYQBiu/88看球.json"},
         {"key": "csp_Yj1211","name": "📡JustLive","type": 3,"api": "csp_Yj1211","playerType":1,"searchable": 1,"quickSearch": 1,"filterable": 1},
