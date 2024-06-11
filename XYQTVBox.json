@@ -114,22 +114,6 @@
       "quickSearch": 1,
       "changeable": 1
     },
-	     {
-      "key": "玩偶",
-      "name": "┃玩偶4K┃弹幕",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "jar":"./lib/fty.jar",
-      "ext": {
-        "aliToken": "tvfan/token.txt",
-        "quarkCookie": "tvfan/cookie.txt",
-        "from": "4k|auto|fhd",
-        "siteUrl": "https://www.wogg.link/",
-        "danMu": "弹"
-      }
       {
       "key": "夜猫短剧",
       "name": "夜猫┃短剧",
