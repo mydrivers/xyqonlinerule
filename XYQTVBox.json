@@ -22,10 +22,10 @@
     "sites": [
         //{"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
         {"key":"drpy_js_豆瓣","name":"[豆瓣热播]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.js"},
-        {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"},
-        {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"},
-        {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"},
-        {"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"},
+        //{"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/奇珍异兽.js"},
+        //{"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/优酷.js"},
+        //{"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/腾云驾雾.js"},
+        //{"key":"drpy_js_百忙无果","name":"百忙无果[js]","type":3,"api":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","ext":"https://gitdl.cn/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/百忙无果.js"},
                     {
       "key": "荐片弹幕",
       "name": "💡荐片┃弹幕",
@@ -71,6 +71,65 @@
       "filterable": 1,
       "ext": "https://jihulab.com/e8/4k/-/raw/master/js/nangua.js"
     },
+        {"key": "新视觉提醒您请勿相信视频中的广告",
+      "name": "┃新视觉┃秒播",
+      "type": 3,
+       "jar": "http://111.229.25.44:8888/down/x6d6WaWJ4E1m.jar",
+      "api": "csp_Xinsj",
+      "timeout": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+        {
+      "key": "酷看",
+      "name": "酷看┃秒播",
+      "type": 3,
+       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715980119184/fan.txt;md5;f4a9956bae884c4a952da9152c0ed446",
+      "api": "csp_Kkys",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Lib",
+      "name": "立播┃高清",
+      "type": 3,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715980119184/fan.txt;md5;f4a9956bae884c4a952da9152c0ed446",
+      "api": "csp_Libvio",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.libvio.pw/"
+    },
+     {
+      "key": "比特",
+      "name": "比特┃高清",
+      "type": 3,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715980119184/fan.txt;md5;f4a9956bae884c4a952da9152c0ed446",
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+	     {
+      "key": "玩偶",
+      "name": "┃玩偶4K┃弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "jar":"./lib/fty.jar",
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://www.wogg.link/",
+        "danMu": "弹"
+      }
       {
       "key": "夜猫短剧",
       "name": "夜猫┃短剧",
@@ -105,7 +164,7 @@
         {"key":"360_spider","name":"🐞360影视","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1},
         {"key":"csp_Kuaikan","name":"💡快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
         //{"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czys.top"},
-        {"key":"csp_Bdys","name":"🐞哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1},
+        //{"key":"csp_Bdys","name":"🐞哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1},
         //{"key": "csp_XYQHiker_哔嘀影视","name":"🧲哔嘀影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/哔嘀影视.json"},
         {"key":"csp_Ddys","name":"🐞低端影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
         //{"key":"csp_Kunyu77","name":"🐞77影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
