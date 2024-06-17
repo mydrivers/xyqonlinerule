@@ -109,24 +109,6 @@
       "quickSearch": 1,
       "filterable": 1
     },
-         {
-      "key": "Wexduanjuvop",
-      "name": "短劇┃秒播",
-      "type": 3,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716045250217/wex.txt;md5;aaed7918b3aae5960726413304c4f6c2",
-      "api": "csp_Wexduanjuvop",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexduanjuhema",
-      "name": "短劇┃仙品",
-      "type": 3,
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716045250217/wex.txt;md5;aaed7918b3aae5960726413304c4f6c2",
-      "api": "csp_Wexduanjuhema",
-      "searchable": 1,
-      "changeable": 1
-    },
 
         //网盘资源区
         //{"key":"Gitcafe","name":"📀小纸条(搜索)","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
